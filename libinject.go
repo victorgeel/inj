@@ -21,7 +21,7 @@ var (
 	DefaultConfig = &Config{
 		Enable: true,
 		Type:   0,
-		Port:   "8989",
+		Port:   "2024",
 		Rules: map[string][]string{
 			"*:*": []string{
 				"*",
@@ -203,7 +203,7 @@ func (i *Inject) NewConnection(proxyHost string, proxyPort int, request map[stri
 	}
 
 	if i.Config.ShowLog {
-		liblog.LogInfo(logConnecting, "INFO", liblog.Colors["G1"])
+		liblog.LogInfo(logConnecting, "INFO", liblog.Colors["C1"])
 	}
 
 	liblog.LogReplace(logConnecting, liblog.Colors["G2"])
