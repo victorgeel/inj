@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aztecrabbit/liblog"
-	"github.com/aztecrabbit/libredsocks"
-	"github.com/aztecrabbit/libutils"
+	"github.com/victorgeel/liblog"
+	"github.com/victorgeel/libredsocks"
+	"github.com/victorgeel/libutils"
 )
 
 var (
