@@ -28,7 +28,7 @@ var (
 			},
 		},
 		Payload:              "[raw][crlf]Host: t.co[crlf]Host: [crlf][crlf]",
-		ServerNameIndication: "instagram.fcgk8-1.fna.fbcdn.net",
+		ServerNameIndication: "",
 		MeekType:             0,
 		Timeout:              5,
 		ShowLog:              false,
